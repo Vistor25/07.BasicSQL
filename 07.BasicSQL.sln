@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NorthWind_1.0", "NorthWind\NorthWind_1.0.sqlproj", "{0444F9B8-3B2E-4850-BC57-88C4940A5195}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NorthWind_1.1", "NorthWind_1.1\NorthWind_1.1.sqlproj", "{3E15170B-82B2-4DEB-9D19-B6D421C006AD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NorthWind_1.3", "NorthWind_1.3\NorthWind_1.3.sqlproj", "{04DF6AC9-AB87-4FB5-8B90-E2811C8285CF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0444F9B8-3B2E-4850-BC57-88C4940A5195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0444F9B8-3B2E-4850-BC57-88C4940A5195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0444F9B8-3B2E-4850-BC57-88C4940A5195}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0444F9B8-3B2E-4850-BC57-88C4940A5195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0444F9B8-3B2E-4850-BC57-88C4940A5195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0444F9B8-3B2E-4850-BC57-88C4940A5195}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3E15170B-82B2-4DEB-9D19-B6D421C006AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E15170B-82B2-4DEB-9D19-B6D421C006AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E15170B-82B2-4DEB-9D19-B6D421C006AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3E15170B-82B2-4DEB-9D19-B6D421C006AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E15170B-82B2-4DEB-9D19-B6D421C006AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E15170B-82B2-4DEB-9D19-B6D421C006AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{04DF6AC9-AB87-4FB5-8B90-E2811C8285CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DF6AC9-AB87-4FB5-8B90-E2811C8285CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DF6AC9-AB87-4FB5-8B90-E2811C8285CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04DF6AC9-AB87-4FB5-8B90-E2811C8285CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DF6AC9-AB87-4FB5-8B90-E2811C8285CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DF6AC9-AB87-4FB5-8B90-E2811C8285CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
